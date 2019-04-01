@@ -1,0 +1,30 @@
+{
+  "name": "timeitbank",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para tópicos especiales de ingeniería de software. Es un banco de tiempo digital, donde las personas puede ofrecer sus servicios y se les pagará con tiempo, que podrán redimir en otros servicios.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodri92/timeitbank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodri92/timeitbank/issues"
+  },
+  "homepage": "https://github.com/jrodri92/timeitbank#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
